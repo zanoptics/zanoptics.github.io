@@ -1,0 +1,6 @@
+- [**首页**](/README.md)
+- [**高等数学**](/doc/数学工具/高等数学/README.md)
+- [test](/doc/数学工具/高等数学/test.md)
+- [test1](/doc/数学工具/高等数学/test1.md)
+- [test2](/doc/数学工具/高等数学/test2.md)
+- [test3](/doc/数学工具/高等数学/test3.md)

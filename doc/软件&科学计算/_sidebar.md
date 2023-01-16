@@ -1,0 +1,8 @@
+- [**首页**](/README.md)
+- [**软件&科学计算**](/doc/软件&科学计算/README.md)
+- [C](/doc/软件&科学计算/C/README.md)
+- [matlab](/doc/软件&科学计算/matlab/README.md)
+- [python](/doc/软件&科学计算/python/README.md)
+- [并行计算](/doc/软件&科学计算/并行计算/README.md)
+- [数学建模](/doc/软件&科学计算/数学建模/README.md)
+- [计算机原理](/doc/软件&科学计算/计算机原理/README.md)
