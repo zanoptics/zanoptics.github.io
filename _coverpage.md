@@ -8,4 +8,3 @@
 
 [Get Started](/README.md)
 
-![color](#f0f0f0)
