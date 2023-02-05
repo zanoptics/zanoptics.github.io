@@ -1,3 +1,4 @@
 - [**首页**](/README.md)
 - [**matlab**](/doc/软件&科学计算/matlab/README.md)
 - [1.1逻辑值索引的妙用](/doc/软件&科学计算/matlab/1.1逻辑值索引的妙用.md)
+- [2.1卷积和的matlab实现](/doc/软件&科学计算/matlab/2.1卷积和的matlab实现.md)
