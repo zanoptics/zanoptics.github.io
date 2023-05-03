@@ -62,6 +62,10 @@ if __name__ == '__main__':
     fdlist=[]
     ddlist=[]
     dirend('doc')
-    print('不包含dir的dir的路径表 fdlsit:\n',fdlist)
-    print('包含dir的dir的路径表 ddlsit:\n',ddlist)
+    print('不包含dir的dir的路径表 fdlist:\n',fdlist)
+    print('包含dir的dir的路径表 ddlist:\n',ddlist)
+    with open('fdlist.txt','w',encoding='utf-8') as f:
+        f.write(str(fdlist))
+    with open('ddlist.txt','w',encoding='utf-8') as f:
+        f.write(str(ddlist))
     os.system('pause')
