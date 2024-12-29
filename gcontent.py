@@ -1,5 +1,7 @@
 #存储规则:除了readme,边栏等文件,同一目录下要么只有文件file要么只有目录dir
 import os
+import glob
+import re
 def dirend(relp):
     #找到不包含dir的dir,用fdlist存路径,包含dir的dir路径用ddlist存
     global fdlist
@@ -68,4 +70,23 @@ if __name__ == '__main__':
         f.write(str(fdlist))
     with open('ddlist.txt','w',encoding='utf-8') as f:
         f.write(str(ddlist))
+    
+
+    #pathNamespaces
+    final_list = []
+    for name in glob.glob("./**/*.md", recursive=True):
+        if "README" in name:
+            fix_name = name.replace("\\","/")[1:-10]
+            if fix_name:
+                final_list.append(fix_name)
+
+    with open('index.html', 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    with open('index.html','w',encoding='utf-8') as f:
+        str_2add = "pathNamespaces: "+str(final_list)+","
+        new_content = re.sub("pathNamespaces: \[.*\],", str_2add, content, count=1)
+        f.write(new_content)
+
+    print(str_2add)
     os.system('pause')

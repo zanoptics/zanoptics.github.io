@@ -2,6 +2,8 @@
 - [**物理原理**](/doc/物理原理/README.md)
 - [力学](/doc/物理原理/力学/README.md)
 - [普物实验](/doc/物理原理/普物实验/README.md)
+- [激光原理](/doc/物理原理/激光原理/README.md)
 - [热学](/doc/物理原理/热学/README.md)
 - [物理光学](/doc/物理原理/物理光学/README.md)
 - [电磁学](/doc/物理原理/电磁学/README.md)
+- [量子力学](/doc/物理原理/量子力学/README.md)

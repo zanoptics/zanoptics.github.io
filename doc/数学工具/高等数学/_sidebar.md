@@ -1,5 +1,6 @@
 - [**首页**](/README.md)
 - [**高等数学**](/doc/数学工具/高等数学/README.md)
+- [1.积分技术](/doc/数学工具/高等数学/1.积分技术.md)
 - [test](/doc/数学工具/高等数学/test.md)
 - [test1](/doc/数学工具/高等数学/test1.md)
 - [test2](/doc/数学工具/高等数学/test2.md)
